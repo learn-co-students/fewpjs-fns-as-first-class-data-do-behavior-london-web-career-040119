@@ -10,9 +10,18 @@
 
 ### Create a "First-Class" Function
 
-Given a 24 hour lock input field
-Click a button, if time is am run content in params object with key ‘morning’ runs; else run the function keyed by ‘night’. 
-Those keys should be set to sayGoodMorning; else sayGoodNight respectively
+We're going to create a web greeting! Working in [24 hour time](https://en.wikipedia.org/wiki/24-hour_clock),
+create a set of conditions that will give the user different greetings
+depending on the time that is submitted.
+
+We've given some starter code in `index.html` that contains a form
+field and an `h1`. Write your code in `index.js` that will produce 
+the following results when the `submit` button is _clicked_:
+
+- If the time is earlier than 12pm, return "Good Morning".
+- If the time is between 12pm and 5pm, return "Good Afternoon".
+- If the time is later than 5pm, return "Good Evening".
+- If any other input is given, return "Hello".
 
 ## Conclusion
 
