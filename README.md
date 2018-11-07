@@ -1,14 +1,18 @@
-# Title
+# JavaScript Fns as First Class Data: Do behavior
 
 ## Learning Goals
 
-- SWBATs
+- Create a "First-Class" function
 
 ## Introduction
 
-### SWBAT 1
+(Talk about first class functions again with a basic example)
 
-### SWBAT 2
+### Create a "First-Class" Function
+
+Given a 24 hour lock input field
+Click a button, if time is am run content in params object with key ‘morning’ runs; else run the function keyed by ‘night’. 
+Those keys should be set to sayGoodMorning; else sayGoodNight respectively
 
 ## Conclusion
 
