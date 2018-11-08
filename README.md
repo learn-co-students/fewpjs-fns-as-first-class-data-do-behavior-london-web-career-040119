@@ -6,7 +6,10 @@
 
 ## Introduction
 
-(Talk about first class functions again with a basic example)
+In review, functions in javascript are first class objects. This means
+they are just a special type of object that can do all the things that
+regular objects can do. In this lab, we're going to demonstrate some of
+JavaScript's capabilities.
 
 ### Create a "First-Class" Function
 
@@ -15,8 +18,9 @@ create a set of conditions that will give the user different greetings
 depending on the time that is submitted.
 
 We've given some starter code in `index.html` that contains a form
-field and an `h1`. Write your code in `index.js` that will produce 
-the following results when the `submit` button is _clicked_:
+field and an `h1`. Create a function called `greet` in `index.js`
+that will produce  the following results when the `submit` button
+is _clicked_:
 
 - If the time is earlier than 12pm, return "Good Morning".
 - If the time is between 12pm and 5pm, return "Good Afternoon".
@@ -25,4 +29,7 @@ the following results when the `submit` button is _clicked_:
 
 ## Conclusion
 
-## Resources
+This lab demonstrates just the tip of the iceberg when it comes to leveraging
+the power of JavaScript functions. There are heaps features that JavaScript has--
+some are even comparable to Ruby and other programming languages. We'll be
+exploring more on JavaScript events in the next lesson.
