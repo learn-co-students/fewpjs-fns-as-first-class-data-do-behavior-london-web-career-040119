@@ -2,16 +2,16 @@
 
 ## Learning Goals
 
-- Create a "First-Class" function
+- Create a JavaScript function triggered by an event
 
 ## Introduction
 
-In review, functions in javascript are first class objects. This means
-they are just a special type of object that can do all the things that
-regular objects can do. In this lab, we're going to demonstrate some of
-JavaScript's capabilities.
+In review, functions in JavaScript are "first-class" objects. This means
+they are a special type of object that can do all the things that regular
+objects can do. In this lab, we're going to demonstrate some of JavaScript's
+capabilities.
 
-### Create a "First-Class" Function
+### Create a JavaScript Function Triggered by an Event
 
 We're going to create a web greeting! Working in [24 hour time](https://en.wikipedia.org/wiki/24-hour_clock),
 create a set of conditions that will give the user different greetings
