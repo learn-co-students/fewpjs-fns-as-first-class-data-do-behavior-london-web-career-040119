@@ -7,8 +7,8 @@
   <title>JavaScript Lab</title>
 </head>
 <body>
-  <form>
-      <input type="text" id="time" name="time" length="2">
+  <form onsubmit="event.preventDefault();">
+      <input type="time" id="time" name="time">
       <input type="button" value="Submit" onclick="greet(document.getElementById('time').value)">
   </form>
   <h1 id="greeting"></h1>
