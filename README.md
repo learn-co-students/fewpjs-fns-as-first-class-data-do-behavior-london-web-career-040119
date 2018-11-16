@@ -6,10 +6,9 @@
 
 ## Introduction
 
-In review, functions in JavaScript are "first-class" objects. This means
-they are a special type of object that can do all the things that regular
-objects can do. In this lab, we're going to demonstrate some of JavaScript's
-capabilities.
+In review, functions in JavaScript are first-class data. They are treated
+like any other variable and we can pass them as values to other functions.
+In this lab, we're going to demonstrate some of JavaScript's capabilities.
 
 ## Create a "First-Class" Function
 
