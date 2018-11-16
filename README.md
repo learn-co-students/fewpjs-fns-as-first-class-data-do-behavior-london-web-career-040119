@@ -43,4 +43,3 @@ This lab demonstrates just the tip of the iceberg when it comes to leveraging
 the power of JavaScript functions. There are heaps features that JavaScript has
 — some are even comparable to Ruby and other programming languages. We'll be
 exploring more on JavaScript events in the next lesson.
-
