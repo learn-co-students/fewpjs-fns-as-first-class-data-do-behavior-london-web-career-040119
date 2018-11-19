@@ -1,14 +1,11 @@
 describe("index.js", () => {
   it("Returns Good Morning before 12pm", () => {
-    expect(greet(8)).to.equal('Good Morning')
+    expect(greet("8:40")).to.equal('Good Morning')
   })
   it("Returns Good Afternoon between 12pm and 5pm ", () => {
-    expect(greet(14)).to.equal('Good Afternoon')
+    expect(greet("14:21")).to.equal('Good Afternoon')
   })
   it("Returns Good Evening after 5pm", () => {
-    expect(greet(19)).to.equal('Good Evening')
-  })
-  it("Returns Hello with other input", () => {
-    expect(greet("Random Input")).to.equal('Hello')
+    expect(greet("19:00")).to.equal('Good Evening')
   })
 })
