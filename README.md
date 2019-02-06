@@ -1,4 +1,4 @@
-# JavaScript Fns as First Class Data: Do behavior
+# JavaScript Functions as First Class Data: Do behavior
 
 ## Learning Goals
 
