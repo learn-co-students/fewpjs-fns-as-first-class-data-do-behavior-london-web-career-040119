@@ -8,28 +8,32 @@
 
 In review, functions in JavaScript are first-class data. They are treated
 like any other variable and we can pass them as values to other functions.
-In this lab, we're going to demonstrate some of JavaScript's capabilities.
+In this lab, we're going to have an event handler send some information
+gathered by an `<input>` field to a helper function.
 
 ## Create a "First-Class" Function
 
-We're going to create a web greeting! Working in [24 hour time](https://en.wikipedia.org/wiki/24-hour_clock),
-create a set of conditions that will give the user different greetings
-depending on the time that is submitted. The `<input>` element is of
-type `time`, which will automatically convert your `AM` and `PM` hours
-to 24 hour time.
+We're going to create a web greeting! You're provided text input field in which
+you should enter a time in [24 hour time][24]. When you click the `Submit`
+button, some provided code will run which will make calls to **two** functions.
 
-We've given some starter code in `index.html` that contains the form
-field and an `h1`. Write code in `index.js` in a function called `greet`
-that will produce  the following results when the `submit` button
-is _clicked_:
+## The `greet()` function
+
+The `greet` function should take one argument, a `String` which specifies the
+24-hour time in the format `HH:MM`.
 
 - If the time is earlier than 12pm, return "Good Morning".
 - If the time is between 12pm and 5pm, return "Good Afternoon".
 - If the time is later than 5pm, return "Good Evening".
 
-The `greet` function should return the greeting in string form. Additionally,
-program the `greet` function to update the DOM on the `h1` element with id of
-`greeting`.
+##  The `displayMessage()` function
+
+The `greet` function should take one argument, a `String`.
+
+When the function runs it should update the text inside the `#greeting` node
+with the content of the first argument.
+
+It does not return anything.
 
 **NOTE:** The value returned from the `<input>` will be of type `String`.
 You’ll need to take the `String` of the 24 hour time and covert it to a number.
@@ -42,3 +46,5 @@ This lab demonstrates just the tip of the iceberg when it comes to leveraging
 the power of JavaScript functions. There are heaps features that JavaScript has
 — some are even comparable to Ruby and other programming languages. We'll be
 exploring more on JavaScript events in the next lesson.
+
+[24]: https://en.wikipedia.org/wiki/24-hour_clock
