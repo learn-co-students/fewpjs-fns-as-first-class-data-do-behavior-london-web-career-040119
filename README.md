@@ -28,7 +28,7 @@ The `greet` function should take one argument, a `String` which specifies the
 
 ##  The `displayMessage()` function
 
-The `greet` function should take one argument, a `String`.
+The `displayMessage` function should take one argument, a `String`.
 
 When the function runs it should update the text inside the `#greeting` node
 with the content of the first argument.
