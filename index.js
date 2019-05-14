@@ -11,7 +11,7 @@ function handleClick(e) {
 /* Write your implementation of displayMessage() */
 
 function displayMessage(msg) {
-  document.getElementById("greeting").textContent = msg;
+  document.getElementById("greeting").innerText = msg;
 }
 
 function greet(timeStr) {
