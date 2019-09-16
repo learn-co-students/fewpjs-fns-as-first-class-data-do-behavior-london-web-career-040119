@@ -26,6 +26,11 @@ The `greet` function should take one argument, a `String` which specifies the
 - If the time is between 12pm and 5pm, return "Good Afternoon".
 - If the time is later than 5pm, return "Good Evening".
 
+**NOTE:** The value returned from the `<input>` will be of type `String`.
+You’ll need to take the `String` of the 24 hour time and covert it to a number.
+The `split()` [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+and the `parseInt()` [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt) should help.
+
 ##  The `displayMessage()` function
 
 The `displayMessage` function should take one argument, a `String`.
@@ -34,11 +39,6 @@ When the function runs it should update the text inside the `#greeting` node
 with the content of the first argument.
 
 It does not return anything.
-
-**NOTE:** The value returned from the `<input>` will be of type `String`.
-You’ll need to take the `String` of the 24 hour time and covert it to a number.
-The `split()` [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
-and the `parseInt()` [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt) should help.
 
 ## Conclusion
 
