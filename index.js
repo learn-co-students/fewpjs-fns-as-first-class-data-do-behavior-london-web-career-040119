@@ -1,5 +1,7 @@
 /* Given Code, don't edit */
 
+document.querySelector("button").addEventListener(handleClick);
+
 function handleClick(e) {
   const timeString = document.getElementById('time').value
   displayMessage(greet(timeString))
