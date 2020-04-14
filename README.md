@@ -46,6 +46,8 @@ It does not return anything.
 
 Finally, open up your `index.html` file in the browser. After typing `15:00` in the input field and pressing the Submit button should, you should see "Good Afternoon" printed on the DOM.
 
+Did it work? If so, take time to celebrate! Don't move on yet! Take some time to disgest and internalize the code you've just wrote. If not, take time to debug.
+
 ## Conclusion
 
 This lab demonstrates just the tip of the iceberg when it comes to leveraging
