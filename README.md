@@ -38,7 +38,7 @@ and `parseInt()` [function](https://developer.mozilla.org/en-US/docs/Web/JavaScr
 The `displayMessage` function should take one argument, a `String`.
 
 When the function runs it should update the text inside the `#greeting` node
-with the content of the first argument.
+with the content of the argument.
 
 It does not return anything.
 
