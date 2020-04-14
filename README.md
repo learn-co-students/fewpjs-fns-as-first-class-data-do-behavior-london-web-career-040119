@@ -42,6 +42,10 @@ with the content of the first argument.
 
 It does not return anything.
 
+## Testing
+
+Finally, open up your `index.html` file in the browser. After typing `15:00` in the input field and pressing the Submit button should, you should see "Good Afternoon" printed on the DOM.
+
 ## Conclusion
 
 This lab demonstrates just the tip of the iceberg when it comes to leveraging
